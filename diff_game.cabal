@@ -1,0 +1,14 @@
+Name:                diff_game
+Version:             0.0
+Author:              Nick Kudasov
+Maintainer:          crazy.fizruk@gmail.com
+Stability:           Experimental
+Build-type:          Simple
+
+-- Constraint on the version of Cabal needed to build this package.
+Cabal-version:       >=0.8
+
+Executable diff_game
+   -- Build-Depends:   
+   Main-Is:         Main.hs
+   Hs-Source-Dirs:  src
