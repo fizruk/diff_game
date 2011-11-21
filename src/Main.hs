@@ -5,6 +5,12 @@ import Graphics.UI.Gtk
 main :: IO ()
 main = do
     initGUI
-    window <- windowNew
+    window    <- windowNew
+    runButton <- buttonNew
+    set window [windowDefaultWidth   := 200,
+                windowDefaultHeight  := 200,
+                containerChild       := runButton,
+                containerBorderWidth := 10]
+    onDestroy window mainQuit
     widgetShowAll window
     mainGUI
