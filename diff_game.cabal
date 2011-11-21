@@ -1,4 +1,4 @@
-Name:                diff_game
+Name:                DiffGame
 Version:             0.0
 Author:              Nick Kudasov
 Maintainer:          crazy.fizruk@gmail.com
@@ -9,6 +9,6 @@ Build-type:          Simple
 Cabal-version:       >=0.8
 
 Executable diff_game
-   -- Build-Depends:   
+   Build-Depends:   base >= 4 && < 5
    Main-Is:         Main.hs
    Hs-Source-Dirs:  src
