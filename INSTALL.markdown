@@ -9,14 +9,16 @@ and are written in Haskell programming language. So you
 will need following to build program from sources:
 
 * [ghc](http://www.haskell.org/ghc/) (Glasgow Haskell Compiler)
-
-If you also want to build and install package, you'll need also
-
 * [Cabal](http://www.haskell.org/cabal/) (system for building and packaging Haskell libraries and programs)
 
-The best way to get all this in one simple move is to install
+The best way to get both of them is to install
 
 * [Haskell Platform](http://hackage.haskell.org/platform/)
+
+You also should install GUI libraries:
+
+* [Gtk2Hs](http://www.haskell.org/haskellwiki/Gtk2Hs/Linux/)
+* [Glade](http://glade.gnome.org/)
 
 Install
 -------
