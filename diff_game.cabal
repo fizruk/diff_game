@@ -12,7 +12,13 @@ Cabal-version:       >=1.2
 Data-Files: gui/MainWindow.glade
 Data-Dir:   src
 
+
 Executable diff_game
-   Build-Depends:       base >= 4 && < 5, gtk, glade
-   Main-Is:             Main.hs
-   Hs-Source-Dirs:      src
+   Build-Depends:  base >= 4 && < 5, gtk, glade
+   Hs-Source-Dirs: src
+   Main-Is: Main.hs
+
+Executable diff_game_cli
+   Build-Depends:  base >= 4 && < 5
+   Hs-Source-Dirs: src
+   Main-Is: MainCLI.hs
